@@ -14,4 +14,7 @@
 # sphinx
 build/
 
+# Local caches etc
 .direnv/
+
+dev-notes.txt
