@@ -1,9 +1,9 @@
 # shell.nix
-{ unstable ? import <nixos-unstable> { allowUnfree = true; } }:
+{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz") { } }:
 
-unstable.mkShell {
+pkgs.mkShell {
   buildInputs = [
-    (unstable.python3.withPackages (ps: [
+    (pkgs.python3.withPackages (ps: [
       ps.sphinx
       ps.sphinx-rtd-theme
     ]))
