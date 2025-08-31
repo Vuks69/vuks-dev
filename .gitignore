@@ -13,3 +13,5 @@
 
 # sphinx
 build/
+
+.direnv/
