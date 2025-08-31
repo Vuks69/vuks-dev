@@ -1,26 +1,15 @@
-.. website documentation master file, created by
-   sphinx-quickstart on Sun May 18 20:51:38 2025.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+########
+vuks.dev
+########
 
-Work in progress
-================
+.. note::
 
-Test website.
-
-Image test:
-
-.. image:: https://media.vuks.dev/image/oni-ai-sora-sunglasses.png
-   :width: 30%
-   :alt: Oni AI Sora Sunglasses
-
-Video test:
-
-.. raw:: html
-
-   <iframe width="560" height="315" src="https://media.vuks.dev/video/drg-memes.mov" frameborder="0" allowfullscreen></iframe>
-
+   This website is under construction.
 
 .. toctree::
-   :maxdepth: 2
+   :titlesonly:
+   :glob:
+   :maxdepth: 1
    :caption: Contents:
+
+   personal/*
