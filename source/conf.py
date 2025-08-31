@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "vuks.dev"
-copyright = "2025, Vuks"
+copyright = "%Y, Vuks"
 author = "Vuks"
 
 # -- General configuration ---------------------------------------------------
