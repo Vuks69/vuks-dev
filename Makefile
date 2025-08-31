@@ -1,11 +1,14 @@
 .PHONY: help Makefile deploy test
 
-SPHINXOPTS		?=
-SPHINXBUILD		?= sphinx-build
-SOURCEDIR		= source
-BUILDDIR		= build
-DEPLOYDIR		= /var/www/website
-STAGINGDIR		= /var/www/staging
+SPHINXOPTS			?=
+SPHINXBUILD			?= sphinx-build
+SOURCEDIR			= source
+BUILDDIR			= build
+DEPLOYDIR			= /var/www/website
+STAGINGDIR			= /var/www/staging
+# Fix weird interaction between sphinx and nix
+# https://github.com/sphinx-doc/sphinx/issues/3451
+SOURCE_DATE_EPOCH 	= $(shell git log -1 --format=%ct)
 
 EXCLUDE			= .buildinfo .buildinfo.bak objects.inv
 RSYNC_EXCLUDE	= $(addprefix --exclude , $(EXCLUDE))
