@@ -1,6 +1,6 @@
-########
-vuks.dev
-########
+##########
+ vuks.dev
+##########
 
 .. toctree::
    :titlesonly:

@@ -1,6 +1,6 @@
-######
-Guides
-######
+########
+ Guides
+########
 
 .. toctree::
    :titlesonly:
@@ -8,4 +8,4 @@ Guides
    :maxdepth: 1
    :caption: Contents:
 
-   yubikey/README.rst
+   yubikey/index.rst
