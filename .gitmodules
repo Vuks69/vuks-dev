@@ -1,0 +1,3 @@
+[submodule "source/guides/yubikey"]
+	path = source/guides/yubikey
+	url = https://github.com/Vuks69/yubikey-setup

@@ -8,4 +8,4 @@ Guides
    :maxdepth: 1
    :caption: Contents:
 
-   yubikey/*
+   yubikey/README.rst
