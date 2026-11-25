@@ -1,3 +1,4 @@
 [submodule "source/guides/yubikey"]
 	path = source/guides/yubikey
-	url = https://github.com/Vuks69/yubikey-setup
+	url = git@github.com:Vuks69/yubikey-setup.git
+	branch = main
