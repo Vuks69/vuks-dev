@@ -7,5 +7,6 @@ pkgs.mkShell {
       ps.sphinx
       ps.sphinx-rtd-theme
     ]))
+    pkgs.rstfmt
   ];
 }
